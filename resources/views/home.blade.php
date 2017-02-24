@@ -92,14 +92,6 @@
 				}
 				setClasses();
 				setLogos();
-
-				if( $('input[type="checkbox"]:checked').length > 0 ){
-					$('#form-footer-logo').hide();
-					$('#generate-container').css('display', 'block');
-				}else{
-					$('#form-footer-logo').show();
-					$('#generate-container').css('display', 'none');
-				}
 			});
 
 			$('#generate-url').on('click', function(){
