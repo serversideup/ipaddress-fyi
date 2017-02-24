@@ -10330,7 +10330,6 @@ module.exports = g;
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-
 __webpack_require__(4);
 
 var app = new Vue({
@@ -10357,7 +10356,6 @@ window._ = __webpack_require__(7);
  */
 
 window.$ = __webpack_provided_window_dot_jQuery = __webpack_require__(0);
-
 __webpack_require__(5);
 
 /**

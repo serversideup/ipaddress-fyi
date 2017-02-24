@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get( '/', 'HomeController@getHome' );
+
+Route::post( '/generate-url', 'IPController@postGenerateURL' );
+Route::get( '/addresses', 'IPController@getIPs' );
