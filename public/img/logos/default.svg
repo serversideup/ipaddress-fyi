@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>service-icon/default</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="service-icon/default">
+            <rect id="Rectangle" fill="#B0BEC5" x="0" y="0" width="50" height="50"></rect>
+            <path d="M44.6645766,28.321 C43.2515766,24.652 39.1435766,22.828 35.4765766,24.242 C35.4045766,24.27 35.3305766,24.304 35.2655766,24.327 C35.2865766,24.02 35.2985766,23.713 35.2985766,23.396 C35.2985766,17.656 30.6525766,13 24.9025766,13 C20.6985766,13 17.0735766,15.498 15.4375766,19.098 C13.7085766,18.744 11.8735766,18.869 10.1075766,19.54 C5.19457658,21.436 2.74557658,26.958 4.64157658,31.871 C6.09957658,35.658 9.70357658,37.977 13.5375766,37.979 L13.5375766,37.999 L38.0995766,37.999 L38.0995766,37.999 C38.9275766,37.991 39.7705766,37.838 40.5785766,37.52 C44.2575766,36.107 46.0815766,31.988 44.6645766,28.321 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

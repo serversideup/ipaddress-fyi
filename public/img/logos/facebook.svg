@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>Shape</title>
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>service-icon/facebook</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="service-icon-/-facebook" fill="#3A559F">
+        <g id="service-icon/facebook" fill-rule="nonzero" fill="#3A559F">
             <g id="facebook-1">
                 <g id="Capa_1">
                     <path d="M0,0 L0,49.9703947 L26.6122807,49.9703947 L26.6122807,30.6678728 L20.1067982,30.6678728 L20.1067982,22.7880482 L26.6122807,22.7880482 L26.6122807,16.1703947 C26.6122807,11.3575658 30.5138158,7.4560307 35.3266447,7.4560307 L42.1276316,7.4560307 L42.1276316,14.5417763 L37.2611842,14.5417763 C35.7319079,14.5417763 34.4921053,15.7815789 34.4921053,17.3108553 L34.4921053,22.7881579 L42.0053728,22.7881579 L40.9669956,30.6679825 L34.4921053,30.6679825 L34.4921053,49.9703947 L49.9703947,49.9703947 L49.9703947,0 L0,0 Z" id="Shape"></path>
