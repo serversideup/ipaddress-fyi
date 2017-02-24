@@ -60,7 +60,7 @@
 				<h2>Step 2: Create your address URL</h2>
 				<p>We’ll generate a URL for you so that you can always reference the latest address information. We’ll make sure the addresses stay up to date for you.</p>
 				<div id="selected-apps"></div>
-				<a id="generate-url">Create My Address URL</a>
+				<a id="generate-url" class="disabled">Create My Address URL</a>
 				<span class="interested">Interested in seeing how we get this information? <a href="https://github.com/521dimensions/ipaddress-fyi" target="_blank">Validate our sources on Github.</a></span>
 			</div>
 		</div>
@@ -87,10 +87,18 @@
 				}
 				setClasses();
 				setLogos();
+
+				if( $('input[type="checkbox"]:checked').length > 0 ){
+					$('#generate-url').removeClass('disabled');
+				}else{
+					$('#generate-url').addClass('disabled');
+				}
 			});
 
 			$('#generate-url').on('click', function(){
-				$('#select-ip-sources').submit();
+				if( !$(this).hasClass('disabled') ){
+					$('#select-ip-sources').submit();
+				}
 			});
 		});
 

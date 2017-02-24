@@ -5973,6 +5973,10 @@ body div#generate-container a#generate-url {
   padding: 10px;
 }
 
+body div#generate-container a#generate-url.disabled {
+  background-color: #9E9E9E;
+}
+
 body div#generate-container span.interested {
   color: #9E9E9E;
   font-size: 14px;

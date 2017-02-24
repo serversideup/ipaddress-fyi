@@ -146,6 +146,10 @@ body{
 			font-size: 18px;
 			border-radius: 3px;
 			padding: 10px;
+
+			&.disabled{
+				background-color: #9E9E9E;
+			}
 		}
 
 		span.interested{
