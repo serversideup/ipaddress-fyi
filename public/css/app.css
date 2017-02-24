@@ -5914,7 +5914,7 @@ body div.service div.service-selection input[type="checkbox"] {
 
 body div.service div.service-description {
   float: left;
-  width: calc( 100% - 24px);
+  width: calc( 100% - 30px);
   height: 50px;
 }
 
