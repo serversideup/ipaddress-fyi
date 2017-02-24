@@ -1,0 +1,8 @@
+{
+	"name": "New Relic",
+	"source": "https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/networks",
+	"addresses": [
+		"50.31.164.0/24",
+		"162.247.240.0/22"
+	]
+}

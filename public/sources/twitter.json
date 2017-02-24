@@ -1,0 +1,7 @@
+{
+	"name": "Twitter",
+	"source": "",
+	"commands": [
+		"whois -h whois.radb.net -- '-i origin AS13414' | grep ^route"
+	]
+}
