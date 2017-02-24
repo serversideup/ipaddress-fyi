@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>service-icon/paypal</title>
+    <title>logos/paypal</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="service-icon/paypal" fill-rule="nonzero">
+        <g id="logos/paypal" fill-rule="nonzero">
             <g id="paypal" transform="translate(4.000000, 0.000000)">
                 <g id="Group">
                     <path d="M19.1537534,11.1424933 L32.2993298,11.1424933 C34.3450402,11.1424933 36.2378016,11.7928954 37.7865952,12.8950402 C37.8710456,12.208311 37.9152815,11.5089812 37.9152815,10.7994638 L37.9152815,10.7994638 C37.9152815,4.83512064 33.0801609,0 27.1158177,0 L9.06769437,0 C7.93243968,0 6.96313673,0.819839142 6.77479893,1.93927614 L0.124530831,41.4660858 C-0.114075067,42.8844504 0.97922252,44.1769437 2.41742627,44.1769437 L9.01809651,44.1769437 C10.1533512,44.1769437 11.1408847,43.3576408 11.3292225,42.2380697 L13.4032172,29.9112601 C13.4193029,29.8155496 13.4387399,29.699866 13.4508043,29.6286863 L16.1309651,13.6991957 C16.3792225,12.2233244 17.6571046,11.1424933 19.1537534,11.1424933 Z" id="Shape" fill="#002987"></path>
