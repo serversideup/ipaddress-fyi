@@ -25,7 +25,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
          $schedule->command('update:ipaddresses all')
-                  ->daily();
+                  ->daily('22:10');
     }
 
     /**
