@@ -51,6 +51,11 @@
 					</div>
 				</div>
 			</div>
+			<div class="row" id="form-footer-logo">
+				<div class="large-12 medium-12 small-12 columns large-centered medium-centered footer-logo">
+					Creatively crafted by: <a href="http://521dimensions.com" target="_blank"><img src="/img/521logo.svg"/></a>
+				</div>
+			</div>
 		</div>
 		{{ csrf_field() }}
 	</form>
@@ -59,8 +64,14 @@
 			<div class="large-8 medium-9 small-12 columns large-centered medium-centered">
 				<h2>Step 2: Create your address URL</h2>
 				<p>We’ll generate a URL for you so that you can always reference the latest address information. We’ll make sure the addresses stay up to date for you.</p>
+				<div id="selected-apps"></div>
 				<a id="generate-url">Create My Address URL</a>
 				<span class="interested">Interested in seeing how we get this information? <a href="https://github.com/521dimensions/ipaddress-fyi" target="_blank">Validate our sources on Github.</a></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 medium-12 small-12 columns large-centered medium-centered footer-logo">
+				Creatively crafted by: <a href="http://521dimensions.com" target="_blank"><img src="/img/521logo.svg"/></a>
 			</div>
 		</div>
 	</div>
@@ -80,10 +91,13 @@
 	          		}
 				}
 				setClasses();
+				setLogos();
 
 				if( $('input[type="checkbox"]:checked').length > 0 ){
+					$('#form-footer-logo').hide();
 					$('#generate-container').css('display', 'block');
 				}else{
+					$('#form-footer-logo').show();
 					$('#generate-container').css('display', 'none');
 				}
 			});
@@ -99,6 +113,16 @@
 					$(this).addClass('service-checked');
 				}else{
 					$(this).removeClass('service-checked');
+				}
+			});
+		}
+
+		function setLogos(){
+			$('#selected-apps').html('');
+
+			$('input[type="checkbox"]').each( function(){
+				if( $(this).is(':checked') ){
+					$('#selected-apps').append('<img src="/img/logos/'+$(this).val()+'.svg"/>');
 				}
 			});
 		}
