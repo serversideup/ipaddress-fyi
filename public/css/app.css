@@ -5853,7 +5853,7 @@ body div#logo div.slogan {
 body div#selection-container {
   background-color: #FAFAFA;
   padding-top: 40px;
-  padding-bottom: 282px;
+  padding-bottom: 396px;
 }
 
 body h2 {
@@ -5981,8 +5981,8 @@ body div#generate-container a#generate-url {
 
 body div#generate-container span.interested {
   color: #9E9E9E;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 19px;
   display: block;
   text-align: center;
   margin-top: 30px;
@@ -5991,6 +5991,20 @@ body div#generate-container span.interested {
 body div#generate-container span.interested a {
   color: #9E9E9E;
   text-decoration: underline;
+}
+
+body div#generate-container div#selected-apps {
+  min-height: 65px;
+  text-align: center;
+}
+
+body div#generate-container div#selected-apps img {
+  margin-right: 10px;
+}
+
+body div.footer-logo {
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* Small only */
