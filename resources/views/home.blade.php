@@ -51,11 +51,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="row" id="form-footer-logo">
-				<div class="large-12 medium-12 small-12 columns large-centered medium-centered footer-logo">
-					Creatively crafted by: <a href="http://521dimensions.com" target="_blank"><img src="/img/521logo.svg"/></a>
-				</div>
-			</div>
 		</div>
 		{{ csrf_field() }}
 	</form>
