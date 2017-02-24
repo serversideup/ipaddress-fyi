@@ -3,28 +3,19 @@
 @section('content')
 	<div class="row">
 		<div class="large-12 medium-12 small-12 columns">
-			<div id="github-contribute">
-				<a href="https://github.com/521dimensions/ipaddress-fyi" target="_blank">
-					<img src="/img/github.svg"/> Contribute on GitHub
-				</a>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="large-12 medium-12 small-12 columns">
 			<div id="logo">
 				<img src="/img/bolt.svg"/> ipaddress.fyi <br>
 				<div class="slogan">All the IP addresses that you’ll need, from one simple source</div>
 			</div>
 		</div>
 	</div>
+	<div class="row" id="step-1">
+		<div class="large-12 medium-12 small-12 columns">
+			<h2>Step 1: Select the service(s) that you would like the IP addresses from</h2>
+		</div>
+	</div>
 	<form id="select-ip-sources" name="select-ip-sources" method="POST" action="/generate-url">
 		<div id="selection-container">
-			<div class="row">
-				<div class="large-12 medium-12 small-12 columns">
-					<h2>Step 1: Select the service(s) that you would like the IP addresses from</h2>
-				</div>
-			</div>
 			<div class="row">
 				<div class="large-12 medium-12 small-12 columns">
 					<div class="masonry">

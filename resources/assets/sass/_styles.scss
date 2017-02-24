@@ -1,29 +1,22 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 
-	div#github-contribute{
-		margin-top: 15px;
-		text-align: right;
-		color: #666666;
-		font-size: 16px;
-
-		a{
-			color: #666666;
-		}
-	}
-
 	div#logo{
 		text-align: center;
 		color: #222222;
 		font-size: 64px;
 		font-weight: 100;
-		margin-bottom: 90px;
+		margin-bottom: 10px;
 
 		div.slogan{
 			color: #9E9E9E;
 			font-size: 18px;
 			margin-top: 10px;
 		}
+	}
+
+	div#step-1{
+		margin-bottom: 20px;
 	}
 
 	div#selection-container{
@@ -180,6 +173,102 @@ body{
 		text-align: center;
 		margin-top: 20px;
 	}
+
+	div#table-header{
+		padding: 20px;
+		box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+
+		img{
+			margin-right: 10px;
+		}
+
+		div.title-container{
+			line-height: 60px;
+		}
+
+		span.table-title{
+			color: #222222;
+			font-size: 24px;
+			line-height: 33px;
+			font-weight: 100;
+		}
+
+		div.showing-addresses-for-container{
+			text-align: center;
+
+			img{
+				width: 30px;
+				height: 30px;
+			}
+		}
+
+		span.showing-addresses-for{
+			color: #9E9E9E;
+			font-size: 12px;
+			line-height: 19px;
+			display: block;
+			text-align: center;
+		}
+
+		a#view-json{
+			color: white;
+			background-color: #00A0FF;
+			display: block;
+			border-radius: 3px;
+			text-align: center;
+			width: 120px;
+			font-size: 12px;
+			padding: 12px;
+			float: right;
+			margin-top: 10px;
+		}
+	}
+
+	div.returned-address-app{
+		margin-top: 50px;
+
+		img{
+			float: left;
+			margin-right: 10px;
+		}
+		div.meta-container{
+			float: left;
+
+			span.returned-address-app-name{
+				display: block;
+				color: #222222;
+				font-size: 18px;
+				line-height: 24px;
+			}
+			span.returned-address-last-updated{
+				display: block;
+				color: #9E9E9E;
+				font-size: 12px;
+			}
+		}
+
+		div.source-link-container{
+			line-height: 50px;
+			text-align: right;
+
+			img{
+				margin-left: 0px;
+				float: none;
+			}
+			a.source{
+				color: #00A0FF;
+				font-size: 16px;
+			}
+		}
+		
+
+		div.ip-cell{
+			border: 1px solid #E8E8E8;
+			padding: 5px;
+			text-align: center;
+			color: #222222;
+		}
+	}
 }
 
 /* Small only */
@@ -195,9 +284,17 @@ body{
 	        column-count: 1;
 	    }
 
-	    div#github-contribute{
+	    div.title-container{
 	    	text-align: center;
-	    	margin-bottom: 10px;
+	    }
+
+	    a#view-json{
+	    	margin: auto;
+	    	float: none !important;
+	    }
+
+	    div.source-link-container{
+	    	text-align: left !important;
 	    }
 	}
 }

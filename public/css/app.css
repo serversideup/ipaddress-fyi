@@ -5825,29 +5825,22 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-body div#github-contribute {
-  margin-top: 15px;
-  text-align: right;
-  color: #666666;
-  font-size: 16px;
-}
-
-body div#github-contribute a {
-  color: #666666;
-}
-
 body div#logo {
   text-align: center;
   color: #222222;
   font-size: 64px;
   font-weight: 100;
-  margin-bottom: 90px;
+  margin-bottom: 10px;
 }
 
 body div#logo div.slogan {
   color: #9E9E9E;
   font-size: 18px;
   margin-top: 10px;
+}
+
+body div#step-1 {
+  margin-bottom: 20px;
 }
 
 body div#selection-container {
@@ -6005,6 +5998,104 @@ body div.footer-logo {
   margin-top: 20px;
 }
 
+body div#table-header {
+  padding: 20px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+body div#table-header img {
+  margin-right: 10px;
+}
+
+body div#table-header div.title-container {
+  line-height: 60px;
+}
+
+body div#table-header span.table-title {
+  color: #222222;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 100;
+}
+
+body div#table-header div.showing-addresses-for-container {
+  text-align: center;
+}
+
+body div#table-header div.showing-addresses-for-container img {
+  width: 30px;
+  height: 30px;
+}
+
+body div#table-header span.showing-addresses-for {
+  color: #9E9E9E;
+  font-size: 12px;
+  line-height: 19px;
+  display: block;
+  text-align: center;
+}
+
+body div#table-header a#view-json {
+  color: white;
+  background-color: #00A0FF;
+  display: block;
+  border-radius: 3px;
+  text-align: center;
+  width: 120px;
+  font-size: 12px;
+  padding: 12px;
+  float: right;
+  margin-top: 10px;
+}
+
+body div.returned-address-app {
+  margin-top: 50px;
+}
+
+body div.returned-address-app img {
+  float: left;
+  margin-right: 10px;
+}
+
+body div.returned-address-app div.meta-container {
+  float: left;
+}
+
+body div.returned-address-app div.meta-container span.returned-address-app-name {
+  display: block;
+  color: #222222;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+body div.returned-address-app div.meta-container span.returned-address-last-updated {
+  display: block;
+  color: #9E9E9E;
+  font-size: 12px;
+}
+
+body div.returned-address-app div.source-link-container {
+  line-height: 50px;
+  text-align: right;
+}
+
+body div.returned-address-app div.source-link-container img {
+  margin-left: 0px;
+  float: none;
+}
+
+body div.returned-address-app div.source-link-container a.source {
+  color: #00A0FF;
+  font-size: 16px;
+}
+
+body div.returned-address-app div.ip-cell {
+  border: 1px solid #E8E8E8;
+  padding: 5px;
+  text-align: center;
+  color: #222222;
+}
+
 /* Small only */
 
 @media screen and (max-width: 39.9375em) {
@@ -6018,9 +6109,17 @@ body div.footer-logo {
     column-count: 1;
   }
 
-  body div#github-contribute {
+  body div.title-container {
     text-align: center;
-    margin-bottom: 10px;
+  }
+
+  body a#view-json {
+    margin: auto;
+    float: none !important;
+  }
+
+  body div.source-link-container {
+    text-align: left !important;
   }
 }
 

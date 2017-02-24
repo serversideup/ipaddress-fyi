@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="30px" viewBox="0 0 18 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="02.00.00-AddressDetail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HD" transform="translate(-128.000000, -23.000000)" fill="#FFC107">
+            <g id="Header">
+                <g id="Group-4" transform="translate(128.000000, 21.000000)">
+                    <path d="M9.76925657,13.5785664 L13.0905928,2.53613109 C13.1409038,2.38304667 13.0905928,2.20797672 12.9591351,2.09804908 C12.7822352,1.94740749 12.5241885,1.97509297 12.37569,2.14853436 L3.55271368e-15,17.1353363 L8.34107386,20.4233942 L5.00675413,31.4625724 C4.96131196,31.6172854 5.00675413,31.7931696 5.13740039,31.9030973 C5.3143003,32.0521103 5.57396988,32.0252391 5.72084549,31.8501691 L18.0478474,16.8918669 L9.76925657,13.5785664 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
