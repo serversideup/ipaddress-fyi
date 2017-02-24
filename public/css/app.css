@@ -5832,6 +5832,10 @@ body div#github-contribute {
   font-size: 16px;
 }
 
+body div#github-contribute a {
+  color: #666666;
+}
+
 body div#logo {
   text-align: center;
   color: #222222;
@@ -5849,7 +5853,7 @@ body div#logo div.slogan {
 body div#selection-container {
   background-color: #FAFAFA;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 282px;
 }
 
 body h2 {
@@ -5948,6 +5952,13 @@ body div.service div.service-description div.service-meta span.last-updated {
 body div#generate-container {
   padding-top: 40px;
   padding-bottom: 40px;
+  position: fixed;
+  z-index: 99999;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  display: none;
 }
 
 body div#generate-container p {
@@ -5979,6 +5990,7 @@ body div#generate-container span.interested {
 
 body div#generate-container span.interested a {
   color: #9E9E9E;
+  text-decoration: underline;
 }
 
 /* Small only */

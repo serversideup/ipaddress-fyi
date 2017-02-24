@@ -14,4 +14,4 @@
 Route::get( '/', 'HomeController@getHome' );
 
 Route::post( '/generate-url', 'IPController@postGenerateURL' );
-Route::get( '/addresses', 'IPController@getIPs' );
+Route::get( '/{selection}', 'IPController@getIPs' );

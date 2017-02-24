@@ -4,7 +4,9 @@
 	<div class="row">
 		<div class="large-12 medium-12 small-12 columns">
 			<div id="github-contribute">
-				<img src="/img/github.svg"/> Contribute on GitHub
+				<a href="https://github.com/521dimensions/ipaddress-fyi" target="_blank">
+					<img src="/img/github.svg"/> Contribute on GitHub
+				</a>
 			</div>
 		</div>
 	</div>
@@ -58,7 +60,7 @@
 				<h2>Step 2: Create your address URL</h2>
 				<p>We’ll generate a URL for you so that you can always reference the latest address information. We’ll make sure the addresses stay up to date for you.</p>
 				<a id="generate-url">Create My Address URL</a>
-				<span class="interested">Interested in seeing how we get this information? <a href="">Validate our sources on Github.</a></span>
+				<span class="interested">Interested in seeing how we get this information? <a href="https://github.com/521dimensions/ipaddress-fyi" target="_blank">Validate our sources on Github.</a></span>
 			</div>
 		</div>
 	</div>
@@ -67,15 +69,23 @@
 @section('scripts')
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('.service').on('click', function(){
-				if( $(this).find("input[type='checkbox']").is(':checked') ){
-					$(this).find("input[type='checkbox']")
-	          		   	   .prop('checked', false);
-          		}else{
-          			$(this).find("input[type='checkbox']")
-          		  		   .prop('checked', true);
-          		}
-	          	setClasses();
+			$('.service').on('click', function( e ){
+				if( e.target.tagName != 'INPUT' ){
+					if( $(this).find("input[type='checkbox']").is(':checked') ){
+						$(this).find("input[type='checkbox']")
+		          		   	   .prop('checked', false);
+	          		}else{
+	          			$(this).find("input[type='checkbox']")
+	          		  		   .prop('checked', true);
+	          		}
+				}
+				setClasses();
+
+				if( $('input[type="checkbox"]:checked').length > 0 ){
+					$('#generate-container').css('display', 'block');
+				}else{
+					$('#generate-container').css('display', 'none');
+				}
 			});
 
 			$('#generate-url').on('click', function(){

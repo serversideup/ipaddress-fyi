@@ -11,11 +11,11 @@ class IPController extends Controller
 	public function postGenerateURL( Request $request ){
 		$appsRequest = implode('-',	$request->get('service') );
 
-		return redirect('/addresses?apps='.$appsRequest);
+		return redirect('/'.$appsRequest);
 	}
 
-    public function getIPs( Request $request ){
-    	$apps = $request->get('apps');
+    public function getIPs( $selection, Request $request ){
+    	$apps = $selection;
     	$apps = explode('-', $apps);
 
     	$returnedAddresses = array();

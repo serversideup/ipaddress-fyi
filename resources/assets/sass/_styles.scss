@@ -6,6 +6,10 @@ body{
 		text-align: right;
 		color: #666666;
 		font-size: 16px;
+
+		a{
+			color: #666666;
+		}
 	}
 
 	div#logo{
@@ -25,7 +29,7 @@ body{
 	div#selection-container{
 		background-color: #FAFAFA;
 		padding-top: 40px;
-		padding-bottom: 40px;
+		padding-bottom: 282px;
 	}
 
 	h2{
@@ -73,7 +77,7 @@ body{
 		&.service-checked{
 			box-shadow: 0 0 15px 0 #00A0FF;
 		}
-		
+
 		div.service-selection{
 			float: left;
 			margin-right: 10px;
@@ -124,6 +128,13 @@ body{
 	div#generate-container{
 		padding-top: 40px;
 		padding-bottom: 40px;
+		position: fixed;
+		z-index: 99999;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		background-color: white;
+		display: none;
 
 		p{
 			color: #222222;
@@ -153,6 +164,7 @@ body{
 
 			a{
 				color: #9E9E9E;
+				text-decoration: underline;
 			}
 		}
 	}
