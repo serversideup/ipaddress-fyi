@@ -68,13 +68,29 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.service').on('click', function(){
-				$(this).find("input[type='checkbox']")
-	          		   .prop('checked', true);
+				if( $(this).find("input[type='checkbox']").is(':checked') ){
+					$(this).find("input[type='checkbox']")
+	          		   	   .prop('checked', false);
+          		}else{
+          			$(this).find("input[type='checkbox']")
+          		  		   .prop('checked', true);
+          		}
+	          	setClasses();
 			});
 
 			$('#generate-url').on('click', function(){
 				$('#select-ip-sources').submit();
 			});
 		});
+
+		function setClasses(){
+			$('.service').each( function(){
+				if( $(this).find("input[type='checkbox']").is(':checked') ){
+					$(this).addClass('service-checked');
+				}else{
+					$(this).removeClass('service-checked');
+				}
+			});
+		}
 	</script>
 @stop

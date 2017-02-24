@@ -5895,6 +5895,10 @@ body div.service {
   cursor: pointer;
 }
 
+body div.service.service-checked {
+  box-shadow: 0 0 15px 0 #00A0FF;
+}
+
 body div.service div.service-selection {
   float: left;
   margin-right: 10px;
@@ -5995,6 +5999,8 @@ body div#generate-container span.interested a {
     -webkit-column-count: 2;
     column-count: 2;
   }
+
+  /* Rectangle 2: */
 }
 
 /* Large only */
