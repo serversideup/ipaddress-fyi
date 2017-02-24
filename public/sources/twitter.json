@@ -1,6 +1,7 @@
 {
 	"name": "Twitter",
-	"source": "",
+	"category": "Social Media",
+	"source": "https://whois.arin.net/ui/advanced.jsp",
 	"commands": [
 		"whois -h whois.radb.net -- '-i origin AS13414' | grep ^route"
 	]

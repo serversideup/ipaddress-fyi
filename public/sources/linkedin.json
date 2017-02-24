@@ -1,0 +1,12 @@
+{
+	"name": "LinkedIn",
+	"category": "Social Media",
+	"source": "https://mxtoolbox.com/SuperTool.aspx?action=asn%3alinkedin",
+	"commands": [
+		"whois -h whois.radb.net -- '-i origin AS13443' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS14413' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS40793' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS55163' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS197612' | grep ^route"
+	]
+}
