@@ -11,7 +11,8 @@
 	<div class="row">
 		<div class="large-12 medium-12 small-12 columns">
 			<div id="logo">
-				<img src="/img/bolt.svg"/> ipaddress.fyi
+				<img src="/img/bolt.svg"/> ipaddress.fyi <br>
+				<div class="slogan">All the IP addresses that you’ll need, from one simple source</div>
 			</div>
 		</div>
 	</div>
@@ -23,25 +24,29 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="large-4 medium-6 small-12 columns">
-					<h3 class="services-header">Social Media</h3>
-					@foreach( $ipAddresses as $ipAddress )
-						@if( $ipAddress->category == 'Social Media' )
-							<div class="service">
-								<div class="service-selection">
-									<input type="checkbox" name="service[]" value="{{ $ipAddress->app_name }}"/>
-								</div>
-								<div class="service-description">
-									<img src="/img/logos/{{ $ipAddress->app_name }}.svg"/>
-									<div class="service-meta">
-										<span class="service-name">{{ $ipAddress->clean_name }}</span>
-										<span class="last-updated">Last Updated: {{ date('m/d/Y g:i:s A', strtotime( $ipAddress->last_updated ) ) }}</span>
+				<div class="large-12 medium-12 small-12 columns">
+					<div class="masonry">
+						@foreach( $categories as $key => $ipAddresses )
+							<div class="item">
+								<h3 class="services-header">{{ $key }}</h3>
+								@foreach( $ipAddresses as $ipAddress)
+									<div class="service">
+										<div class="service-selection">
+											<input type="checkbox" name="service[]" value="{{ $ipAddress->app_name }}"/>
+										</div>
+										<div class="service-description">
+											<img src="/img/logos/{{ $ipAddress->app_name }}.svg"/>
+											<div class="service-meta">
+												<span class="service-name">{{ $ipAddress->clean_name }}</span>
+												<span class="last-updated">Last Updated: {{ date('m/d/Y g:i:s A', strtotime( $ipAddress->last_updated ) ) }}</span>
+											</div>
+										</div>
+										<div style="clear: both;"></div>
 									</div>
-								</div>
-								<div style="clear: both;"></div>
+								@endforeach
 							</div>
-						@endif
-					@endforeach
+						@endforeach
+					</div>
 				</div>
 			</div>
 		</div>

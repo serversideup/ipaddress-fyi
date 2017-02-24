@@ -70,6 +70,7 @@ class IPSource
 				any script to get the ip addresses.
 			*/
 			if( isset( $json['addresses'] ) ){
+				$ipAddressRecord->clean_name 	= $json['name'];
 				$ipAddressRecord->addresses 	= json_encode( $json['addresses'] );
 				$ipAddressRecord->source 		= $json['source'];
 				$ipAddressRecord->category 		= $json['category'];
@@ -106,6 +107,7 @@ class IPSource
 				/*
 					Save the addresses, source and last_updated
 				*/
+				$ipAddressRecord->clean_name 	= $json['name'];
 				$ipAddressRecord->addresses 	= json_encode( $ipArray );
 				$ipAddressRecord->source 		= $json['source'];
 				$ipAddressRecord->category 		= $json['category'];

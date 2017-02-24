@@ -17,7 +17,7 @@ class AddedIpAddressTable extends Migration
             $table->increments('id');
             $table->string('app_name');
             $table->string('source');
-            $table->text('addresses');
+            $table->longText('addresses');
             $table->datetime('last_updated');
             $table->timestamps();
         });

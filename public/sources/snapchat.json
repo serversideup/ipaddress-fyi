@@ -1,6 +1,7 @@
 {
 	"name": "Snapchat",
 	"source": "https://whois.arin.net/rest/asn/AS395291/",
+	"category": "Social Media",
 	"commands": [
 		"whois -h whois.radb.net -- '-i origin AS395291' | grep ^route"
 	]
