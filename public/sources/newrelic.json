@@ -1,5 +1,6 @@
 {
 	"name": "New Relic",
+	"category": "Utilities",
 	"source": "https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/networks",
 	"addresses": [
 		"50.31.164.0/24",

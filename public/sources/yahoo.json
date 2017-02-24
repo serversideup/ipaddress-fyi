@@ -1,0 +1,8 @@
+{
+	"name": "Yahoo",
+	"category": "Search Engines",
+	"source": "https://whois.arin.net/ui/advanced.jsp",
+	"commands": [
+		"whois -h whois.radb.net -- '-i origin AS10310' | grep ^route"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"name": "Google",
+	"category": "Search Engines",
+	"source": "https://whois.arin.net/ui/advanced.jsp",
+	"commands": [
+		"whois -h whois.radb.net -- '-i origin AS15169' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS22859' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS36039' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS394507' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS394639' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS395973' | grep ^route"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "Digital Ocean",
+	"category": "Hosting",
+	"source": "https://mxtoolbox.com/SuperTool.aspx?action=asn%3adigital+ocean",
+	"commands": [
+		"whois -h whois.radb.net -- '-i origin AS14061' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS62567' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS133165' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS200130' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS202018' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS202109' | grep ^route",
+		"whois -h whois.radb.net -- '-i origin AS393406' | grep ^route"		
+	]
+}

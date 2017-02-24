@@ -1,5 +1,6 @@
 {
 	"name": "Facebook",
+	"category": "Social Media",
 	"source": "https://developers.facebook.com/docs/sharing/webmasters/crawler",
 	"commands": [
 		"whois -h whois.radb.net -- '-i origin AS32934' | grep ^route"
