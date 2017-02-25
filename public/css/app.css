@@ -5825,6 +5825,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+body div#st-1 {
+  margin-top: 20px;
+  margin-bottom: -35px;
+}
+
 body div#logo {
   text-align: center;
   color: #222222;

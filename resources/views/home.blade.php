@@ -6,9 +6,7 @@
 			<div id="logo">
 				<img src="/img/bolt.svg"/> ipaddress.fyi <br>
 				<div class="slogan">All the IP addresses that you’ll need, from one simple source</div>
-				<a href="https://github.com/selz/shr" target="_blank" class="button button-github" data-shr-network="github">
-                        <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shr-github"></use></svg>Star
-                    </a>
+				<div class="sharethis-inline-share-buttons"></div>
 			</div>
 		</div>
 	</div>
