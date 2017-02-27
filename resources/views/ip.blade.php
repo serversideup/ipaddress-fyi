@@ -4,7 +4,7 @@
 	<div id="table-header">
 		<div class="row">
 			<div class="large-3 medium-4 small-12 columns title-container">
-				<a href="/"><img src="/img/table-bolt.svg"/> <span class="table-title">ipaddress.fyi</span></a>
+				<a href="/"><img src="/img/table-bolt.svg"/> <span class="table-title">IPaddress.fyi</span></a>
 			</div>
 			<div class="large-6 medium-4 small-12 columns showing-addresses-for-container">
 				<span class="showing-addresses-for">Showing Addresses For:</span>
