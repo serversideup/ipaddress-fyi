@@ -23,11 +23,14 @@ If you find a problem, [create an issue](https://github.com/521dimensions/ipaddr
 To add a service, you will need to submit a pull request. To do this, you will need to create a new `.json` file under `/public/services`.
 
 Each service requires:
+
 1. `name`: The name of the service
 2. `category`: How this service should be categorized on the homepage
 3. `source`: A trusted URL where you got this information from
 4. `command`: What Bash command to run in order to make sure the data stays up to date
-5. If you cannot get the information through a command, then `addresses` is required. This should be a list of addresses that are verified to be related to the service. In a perfect world, we will want to use the `command` field to update data as much as possible so that we can guarantee changes can be updated without human interaction.
+5. If you cannot get the information through a command, then `addresses` is required.
+
+This should be a list of addresses that are verified to be related to the service. In a perfect world, we will want to use the `command` field to update data as much as possible so that we can guarantee changes can be updated without human interaction.
 
 See the files under `/public/services` to see the examples that we already have.
 
