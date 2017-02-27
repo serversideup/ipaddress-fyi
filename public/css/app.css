@@ -6028,6 +6028,13 @@ body div#table-header span.table-title {
   font-weight: 100;
 }
 
+body div#table-header span.table-title-ip {
+  color: #222222;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 600;
+}
+
 body div#table-header div.showing-addresses-for-container {
   text-align: center;
 }
