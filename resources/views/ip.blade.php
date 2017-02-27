@@ -4,7 +4,7 @@
 	<div id="table-header">
 		<div class="row">
 			<div class="large-3 medium-4 small-12 columns title-container">
-				<img src="/img/table-bolt.svg"/> <span class="table-title">ipaddress.fyi</span>
+				<a href="/"><img src="/img/table-bolt.svg"/> <span class="table-title">ipaddress.fyi</span></a>
 			</div>
 			<div class="large-6 medium-4 small-12 columns showing-addresses-for-container">
 				<span class="showing-addresses-for">Showing Addresses For:</span>
@@ -32,7 +32,7 @@
 						</div>
 						<div class="large-4 medium-3 small-12 columns">
 							<div class="source-link-container">
-								<img src="/img/source-link.svg"/> <a class="source" target="_blank" href="{{ $returnedAddress['source'] }}">Source</a>
+								<img src="/img/source-link.svg"/> <a class="source" target="_blank" href="{{ $returnedAddress['source'] }}">See where this data is coming from</a>
 							</div>
 						</div>
 					</div>
