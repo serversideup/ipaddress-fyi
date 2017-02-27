@@ -12,7 +12,7 @@
 	</div>
 	<div class="row" id="step-1">
 		<div class="large-12 medium-12 small-12 columns">
-			<h2>Step 1: Select the service(s) that you would like the IP addresses from</h2>
+			<h2>Step 1: Select the service(s) that you would like to control the access for</h2>
 		</div>
 	</div>
 	<form id="select-ip-sources" name="select-ip-sources" method="POST" action="/generate-url">
