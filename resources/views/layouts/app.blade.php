@@ -49,6 +49,5 @@
 	</body>
 
 	<script type="text/javascript" src="js/app.js"></script>
-	<script>shr.setup();</script>
 	@yield('scripts')
 </html>
