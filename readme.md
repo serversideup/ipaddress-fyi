@@ -53,6 +53,16 @@ Important notes when configuring `cron`:
 - Make sure you configure the correct location to `artisan` by replacing `/pat/to/my/repo` to be the correct location of where you are running the application.
 - The script above will check every minute to see if it should run (using the Laravel Scheduler). But the address update function will only run once per day at 5 AM GMT.
 
-## License
+# Special Thanks
+We've used a lot of cool tools that have helped inspire this project:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+- [Ninite.com](https://ninite.com)
+- [icanhazip.com](https://icanhazip.com/)
+- [Digital Ocean](https://digitalocean.com)
+- [Dribbble.com](https://dribbble.com)
+- [MFG Labs](https://mfglabs.github.io/mfglabs-iconset/)
+- [Flat Icon](http://www.flaticon.com/)
+
+# License
+
+IPaddress.fyi's code and data are all open-sourced and made available through the [MIT license](https://raw.githubusercontent.com/521dimensions/ipaddress-fyi/master/LICENSE).
