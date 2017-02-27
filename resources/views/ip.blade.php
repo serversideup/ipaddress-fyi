@@ -32,7 +32,7 @@
 						</div>
 						<div class="large-4 medium-3 small-12 columns">
 							<div class="source-link-container">
-								<img src="/img/source-link.svg"/> <a class="source" target="_blank" href="{{ $returnedAddress['source'] }}">See where this data is coming from</a>
+								<img src="/img/source-link.svg"/> <a class="source" target="_blank" href="{{ $returnedAddress['source'] }}">See where we got this data</a>
 							</div>
 						</div>
 					</div>
