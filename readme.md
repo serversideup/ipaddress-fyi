@@ -37,7 +37,7 @@ If you prefer to run your own server, you will need a working PHP and MySQL envi
 
 ## Manually updating addresses
 If you want to update the addresses manually, we created a command to do so:
-```
+```sh
 cd /path/to/the/repo/
 php artisan update:ipaddresses all
 ```
@@ -45,8 +45,8 @@ php artisan update:ipaddresses all
 ## Automating address updates
 Use `cron` to automate the updates. To do this, run `crontab -e` and then add these lines:
 
-```
-#ipaddress.fyi address updates
+```sh
+# ipaddress.fyi address updates
 * * * * * /usr/bin/php /path/to/the/repo/artisan schedule:run >> /dev/null 2>&1
 ```
 Important notes when configuring `cron`:
