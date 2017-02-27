@@ -1,4 +1,4 @@
-<p align="center"><img src="https://ipaddress.fyi/img/ipaddress-logo.svg"></p>
+<p align="center"><a href="https://ipaddress.fyi"><img src="https://ipaddress.fyi/img/ipaddress-logo.svg"></a></p>
 
 ## About this project
 
