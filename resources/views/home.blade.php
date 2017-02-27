@@ -4,7 +4,7 @@
 	<div class="row">
 		<div class="large-12 medium-12 small-12 columns">
 			<div id="logo">
-				<img src="/img/bolt.svg"/> IPaddress.fyi <br>
+				<img src="/img/bolt.svg"/> <span class="logo-ip">IP</span>address.fyi <br>
 				<div class="slogan">Easily control access to the Internet’s most popular services</div>
 				<div class="sharethis-inline-share-buttons"></div>
 			</div>

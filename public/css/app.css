@@ -5838,6 +5838,10 @@ body div#logo {
   margin-bottom: 10px;
 }
 
+body div#logo span.logo-ip {
+  font-weight: 600;
+}
+
 body div#logo div.slogan {
   color: #9E9E9E;
   font-size: 18px;
