@@ -52,7 +52,7 @@
 				<h2>Step 2: Create your address URL</h2>
 				<p>We’ll generate a URL for you so that you can always reference the latest address information. We’ll make sure the addresses stay up to date for you.</p>
 				<div id="selected-apps"></div>
-				<a id="generate-url" class="disabled">Create My Address URL</a>
+				<a id="generate-url" class="disabled">Show My Integration URL</a>
 				<span class="interested">Interested in seeing how we get this information? <a href="https://github.com/521dimensions/ipaddress-fyi" target="_blank">Validate our sources on Github.</a></span>
 			</div>
 		</div>
