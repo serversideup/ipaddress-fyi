@@ -5,7 +5,7 @@
 		<div class="large-12 medium-12 small-12 columns">
 			<div id="logo">
 				<img src="/img/bolt.svg"/> ipaddress.fyi <br>
-				<div class="slogan">All the IP addresses that you’ll need, from one simple source</div>
+				<div class="slogan">Easily control access to the Internet’s most popular services</div>
 				<div class="sharethis-inline-share-buttons"></div>
 			</div>
 		</div>

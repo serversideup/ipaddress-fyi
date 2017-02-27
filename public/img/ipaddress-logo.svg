@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="504px" height="130px" viewBox="0 0 504 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="495px" height="130px" viewBox="0 0 495 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
     <title>Logo and slogan</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="01.00.00-Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="HD" transform="translate(-470.000000, -63.000000)">
+        <g id="HD" transform="translate(-475.000000, -63.000000)">
             <g id="Header">
-                <g id="Logo-and-slogan" transform="translate(470.000000, 63.000000)">
-                    <g id="Logo" transform="translate(18.000000, 0.000000)">
+                <g id="Logo-and-slogan" transform="translate(474.000000, 63.000000)">
+                    <g id="Logo" transform="translate(14.000000, 0.000000)">
                         <path d="M33.0740072,39.1994606 L44.3184554,1.81508218 C44.4887842,1.29681191 44.3184554,0.704109204 43.8734027,0.331947042 C43.2745047,-0.178052958 42.4008828,-0.0843232287 41.8981381,0.502865961 L0,51.2409741 L28.238867,62.3727579 L16.950463,99.7461092 C16.7966177,100.269893 16.950463,100.865352 17.3927685,101.237515 C17.9916665,101.742001 18.8707829,101.651028 19.3680331,101.058325 L61.1013369,50.4167038 L33.0740072,39.1994606 Z" id="Shape" fill="#FFC107" fill-rule="nonzero"></path>
-                        <text id="ipaddress.fyi" font-family="OpenSans-Light, Open Sans" font-size="64" font-weight="300" fill="#222222">
-                            <tspan x="89.1329519" y="69.7659574">ipaddress.fyi</tspan>
+                        <text id="IPaddress.fyi" font-family="OpenSans-Light, Open Sans" font-size="64" font-weight="300" fill="#222222">
+                            <tspan x="88.6329519" y="69.7659574">IPaddress.fyi</tspan>
                         </text>
                     </g>
-                    <text id="All-the-IP-addresses" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#9E9E9E">
-                        <tspan x="0.658203125" y="125">All the IP addresses that you’ll need, from one simple source</tspan>
+                    <text id="Easily-control-acces" font-family="OpenSans, Open Sans" font-size="18" font-weight="normal" fill="#9E9E9E">
+                        <tspan x="0.129882812" y="125">Easily control access to the Internet’s most popular services</tspan>
                     </text>
                 </g>
             </g>
