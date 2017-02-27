@@ -14,7 +14,7 @@ class IPSource
 		/*
 			Defines the directory where all the source files are housed
 		*/
-		$directory = base_path().'/public/sources/';
+		$directory = base_path().'/public/services/';
 
 		/*
 			Scans the directory we defined for source json files.
@@ -46,8 +46,8 @@ class IPSource
 		/*
 			Reads in the JSON string from the file.
 		*/
-		$jsonString = file_get_contents( base_path().'/public/sources/'.$app.'.json' );
-			
+		$jsonString = file_get_contents( base_path().'/public/services/'.$app.'.json' );
+
 		/*
 			Decodes the file as JSON
 		*/
@@ -103,7 +103,7 @@ class IPSource
 						array_push( $ipArray, $cleanIP );
 					}
 				}
-				
+
 				/*
 					Save the addresses, source and last_updated
 				*/
