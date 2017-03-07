@@ -19,6 +19,22 @@
 	</div>
 
 	<div class="row">
+		<div class="large-8 medium-9 small-12 large-centered medium-centered columns" id="returned-address-description">
+			<h2 class="step-instruction">Step 3: Copy this link and integrate this with your application</h2>
+			<p>We’ll provide the data for you in an easy JSON format. In any case where the IP addresses change for the service(s), we will update the data for you so that you don’t have to update your application.</p>
+			<input type="text" value="http://ipaddress.fyi/json/{{ $selection }}" readonly id="json-link"/>
+
+			<div id="copy-success">Copied to Clipboard</div>
+			<div id="copy-failed">Failed to copy to clipboard, please manually copy the link</div>
+
+			<div id="json-link-container">
+				<a class="button" id="view-json" href="http://ipaddress.fyi/json/{{ $selection }}" target="_blank">View the JSON</a>
+				<a class="button" id="copy-json" data-clipboard-text="http://ipaddress.fyi/json/{{ $selection }}">Copy JSON URL</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
 		<div class="large-12 medium-12 small-12 columns">
 			@foreach( $returnedAddresses as $returnedAddress )
 				<div class="returned-address-app">
@@ -48,4 +64,21 @@
 			@endforeach
 		</div>
 	</div>
+@stop
+
+@section('scripts')
+	<script type="text/javascript">
+		var clipboard = new Clipboard('#copy-json');
+
+		clipboard.on('success', function(e) {
+		   $('#copy-success').show( function(){
+		   		$(this).fadeOut(1000);
+		   });
+		});
+
+		clipboard.on('error', function(e) {
+		    $('#json-link').select();
+		    $('#json-link').focus();
+		});
+	</script>
 @stop

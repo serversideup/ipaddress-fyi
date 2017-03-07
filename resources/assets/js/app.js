@@ -5,6 +5,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 require('./foundation');
+require('clipboard');
 
 const app = new Vue({
     el: '#app'

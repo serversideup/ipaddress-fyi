@@ -6113,6 +6113,73 @@ body div.returned-address-app div.ip-cell {
   color: #222222;
 }
 
+body div#returned-address-description {
+  border-bottom: 1px solid #9E9E9E;
+  margin-top: 30px;
+}
+
+body div#returned-address-description h2.step-instruction {
+  color: #222222;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+body div#returned-address-description p {
+  color: #222222;
+  font-size: 14px;
+  text-align: center;
+  line-height: 19px;
+}
+
+body div#returned-address-description input[type="text"]#json-link {
+  color: #666666;
+  font-size: 18px;
+  text-align: center;
+  cursor: auto;
+  margin-bottom: 32px;
+}
+
+body div#returned-address-description div#copy-success {
+  text-align: center;
+  background-color: #59D040;
+  font-size: 14px;
+  padding: 3px;
+  color: white;
+  margin-bottom: 5px;
+  display: none;
+  margin-top: -25px;
+}
+
+body div#returned-address-description div#copy-failed {
+  text-align: center;
+  background-color: #D04040;
+  font-size: 14px;
+  padding: 3px;
+  color: white;
+  margin-bottom: 5px;
+  display: none;
+  margin-top: -27px;
+}
+
+body div#returned-address-description div#json-link-container {
+  text-align: center;
+}
+
+body div#returned-address-description div#json-link-container a#view-json {
+  border: 1px solid #00A0FF;
+  border-radius: 3px;
+  background-color: white;
+  color: #00A0FF;
+}
+
+body div#returned-address-description div#json-link-container a#copy-json {
+  border: 1px solid #0069FF;
+  border-radius: 3px;
+  background-color: #0069FF;
+  color: white;
+}
+
 /* Small only */
 
 @media screen and (max-width: 39.9375em) {

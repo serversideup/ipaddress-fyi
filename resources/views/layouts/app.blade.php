@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>IPaddress.fyi - Super simple IP Address list service for the Internet</title>
-		<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=58b0cf6b1d713c001295ed7a&product=inline-share-buttons"></script>
+		
 		<meta name="description" content="IPaddress.fyi is so simple to find the IP addresses of the most popular services, that even your grandmother will know how to use it.">
 		<!-- Facebook Open Graph -->
 		<meta property="og:locale" content="en_US"/>
@@ -27,6 +27,7 @@
 
 		<link rel="icon" type="image/png" href="/img/favicon.png">
 		<link rel="stylesheet" href="css/app.css"/>
+		<link rel="stylesheet" href="css/rrssb.css"/>
 
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -49,5 +50,9 @@
 	</body>
 
 	<script type="text/javascript" src="js/app.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery.1.10.2.min.js"><\/script>')</script>
+	<script type="text/javascript" src="js/rrssb.min.js"></script>
+	<script type="text/javascript" src="js/clipboard.min.js"></script>
 	@yield('scripts')
 </html>
