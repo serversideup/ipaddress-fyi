@@ -5847,6 +5847,7 @@ body div#logo div.slogan {
   font-size: 18px;
   margin-top: 10px;
   font-weight: 500;
+  margin-bottom: 30px;
 }
 
 body div#step-1 {
@@ -5866,6 +5867,7 @@ body h2 {
   font-weight: bold;
   text-align: center;
   margin: 0px;
+  margin-top: 20px;
 }
 
 body .masonry {
