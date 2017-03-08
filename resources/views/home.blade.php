@@ -70,7 +70,7 @@
 											<img src="/img/logos/{{ $ipAddress->app_name }}.svg"/>
 											<div class="service-meta">
 												<span class="service-name">{{ $ipAddress->clean_name }}</span>
-												<span class="last-updated">Last Updated: {{ date('m/d/Y g:i:s A', strtotime( $ipAddress->last_updated ) ) }} GMT</span>
+												<span class="last-updated">Last Updated: {{ date('m/d/Y g:i A', strtotime( $ipAddress->last_updated ) ) }} GMT</span>
 											</div>
 										</div>
 										<div style="clear: both;"></div>
@@ -132,7 +132,7 @@
 			});
 		});
 
-		
+
 
 		function setClasses(){
 			$('.service').each( function(){

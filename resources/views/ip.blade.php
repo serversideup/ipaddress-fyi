@@ -51,7 +51,7 @@
 							<img src="/img/logos/{{ $returnedAddress['app_name'] }}.svg"/>
 							<div class="meta-container">
 								<span class="returned-address-app-name">{{ $returnedAddress['clean_name'] }}</span>
-								<span class="returned-address-last-updated">Last updated: {{ date('m/d/Y g:i:s A', strtotime( $returnedAddress['last_updated'] ) ) }} GMT</span>
+								<span class="returned-address-last-updated">Last updated: {{ date('m/d/Y g:i A', strtotime( $returnedAddress['last_updated'] ) ) }} GMT</span>
 							</div>
 						</div>
 						<div class="large-4 medium-3 small-12 columns">
