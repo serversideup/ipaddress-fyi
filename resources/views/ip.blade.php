@@ -13,12 +13,14 @@
 				@endforeach
 			</div>
 			<div class="large-3 medium-4 small-12 columns">
-				<a id="view-json" href="/json/{{ $selection }}">View as JSON</a>
+				<a class="header-contribute-link" href="https://github.com/521dimensions/ipaddress-fyi" target="_blank">
+					Contribute on GitHub <img src="/img/contribute-icon.svg"/>
+				</a>
 			</div>
 		</div>
 	</div>
 
-	<div class="row">
+	<div class="row" id="main-body-start">
 		<div class="large-8 medium-9 small-12 large-centered medium-centered columns" id="returned-address-description">
 			<h2 class="step-instruction">Step 3: Copy this link and integrate this with your application</h2>
 			<p>We’ll provide the data for you in an easy JSON format. In any case where the IP addresses change for the service(s), we will update the data for you so that you don’t have to update your application.</p>
@@ -31,6 +33,12 @@
 				<a class="button" id="view-json" href="http://ipaddress.fyi/json/{{ $selection }}" target="_blank">View the JSON</a>
 				<a class="button" id="copy-json" data-clipboard-text="http://ipaddress.fyi/json/{{ $selection }}">Copy JSON URL</a>
 			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="large-8 medium-9 small-12 large-centered medium-centered columns">
+			<h2 class="readable-instruction">See our data in human readable format</h2>
 		</div>
 	</div>
 
