@@ -1,0 +1,11 @@
+{
+	"name": "Bitbucket",
+	"category": "Utilities",
+	"source": "https://confluence.atlassian.com/bitbucket/manage-webhooks-735643732.html#Managewebhooks-trigger_webhookTriggeringwebhooks",
+	"addresses": [
+		"104.192.143.0/24",
+		"34.198.203.127",
+		"34.198.178.64",
+		"34.198.32.85"
+	]
+}
