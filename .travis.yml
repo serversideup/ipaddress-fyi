@@ -5,7 +5,7 @@ addons:
   - "$DEPLOY_SERVER_HOST_IP"
 before_install:
 - openssl aes-256-cbc -K $encrypted_64c8c3f595c3_key -iv $encrypted_64c8c3f595c3_iv
-  -in deploy/deploy_ipaddress.enc -out deploy_ipaddress -d
+  -in deploy/deploy_ipaddress.enc -out /tmp/deploy_ipaddress -d
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/deploy_ipaddress
 - ssh-add /tmp/deploy_ipaddress
