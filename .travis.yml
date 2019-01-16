@@ -7,8 +7,8 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_64c8c3f595c3_key -iv $encrypted_64c8c3f595c3_iv
   -in deploy/deploy_ipaddress.enc -out deploy_ipaddress -d
 - eval "$(ssh-agent -s)"
-- chmod 600 /tmp/deploy_rsa
-- ssh-add /tmp/deploy_rsa
+- chmod 600 /tmp/deploy_ipaddress
+- ssh-add /tmp/deploy_ipaddress
 deploy:
   provider: script
   skip_cleanup: true
