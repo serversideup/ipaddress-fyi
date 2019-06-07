@@ -1,11 +1,10 @@
 {
 	"name": "Bitbucket",
 	"category": "Utilities",
-	"source": "https://confluence.atlassian.com/bitbucket/manage-webhooks-735643732.html#Managewebhooks-trigger_webhookTriggeringwebhooks",
+	"source": "https://confluence.atlassian.com/bitbucket/what-are-the-bitbucket-cloud-ip-addresses-i-should-use-to-configure-my-corporate-firewall-343343385.html",
 	"addresses": [
-		"104.192.143.0/24",
-		"34.198.203.127",
-		"34.198.178.64",
-		"34.198.32.85"
+		"18.205.93.0/25",
+		"18.234.32.128/25",
+		"13.52.5.0/25"
 	]
 }
